@@ -1,259 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stage-Gate 1 Evaluation Worksheet</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-            background-color: #f8f9fa;
-        }
-        .form-container {
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #ba372a;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        h2 {
-            color: #333;
-            border-bottom: 2px solid #ba372a;
-            padding-bottom: 5px;
-            margin-top: 30px;
-        }
-        .form-group {
-            margin-bottom: 20px;
-        }
-        label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 5px;
-            color: #333;
-        }
-        input[type="text"], 
-        input[type="email"], 
-        textarea, 
-        select {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 14px;
-            box-sizing: border-box;
-        }
-        textarea {
-            height: 100px;
-            resize: vertical;
-        }
-        .description {
-            font-size: 12px;
-            color: #666;
-            margin-bottom: 5px;
-        }
-        .required {
-            color: #ba372a;
-        }
-        .instruction-box {
-            background: #e8f4f8;
-            padding: 15px;
-            border-left: 4px solid #ba372a;
-            margin-bottom: 25px;
-        }
-        .submit-btn {
-            background-color: #ba372a;
-            color: white;
-            padding: 12px 30px;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-        .submit-btn:hover {
-            background-color: #9e2f23;
-        }
-        .confirmation-box {
-            background: #f8f9fa;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            margin-top: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stage-Gate Gate 1 Evaluation Worksheet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #222;
+    }
+    .form-container {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #ba372a;
+      text-align: center;
+      margin: 0 0 10px 0;
+    }
+    .subhead {
+      text-align: center;
+      color: #2c3e50;
+      margin: 0 0 18px 0;
+      font-size: 14px;
+    }
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #ba372a;
+      padding-bottom: 5px;
+      margin-top: 30px;
+      margin-bottom: 14px;
+    }
+    .form-group { margin-bottom: 18px; }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    input[type="text"], textarea, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      box-sizing: border-box;
+      background: #fff;
+    }
+    textarea { height: 100px; resize: vertical; }
+    .description {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 6px;
+    }
+    .required { color: #ba372a; }
+    .instruction-box {
+      background: #e8f4f8;
+      padding: 15px;
+      border-left: 4px solid #ba372a;
+      margin-bottom: 20px;
+      border-radius: 4px;
+    }
+    .instruction-box p { margin: 0 0 10px 0; }
+    .instruction-box p:last-child { margin-bottom: 0; }
+    .submit-btn {
+      background-color: #ba372a;
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .submit-btn:hover { background-color: #9e2f23; }
+  </style>
 </head>
+
 <body>
-    <div class="form-container">
-        <h1>Stage-Gate 1 Evaluation Worksheet</h1>
-        
-        <div class="instruction-box">
-            <strong>Stage-Gate® Gate 1: Idea Screen Assessment</strong><br>
-            <strong>Instructions:</strong> Use this worksheet to systematically evaluate your chosen Stage-Gate 1 Evaluation Worksheet innovation opportunity using Stage-Gate® Gate 1 criteria. Remember: Gate 1 is a "gentle screen" focused on strategic fit and preliminary feasibility.<br><br>
-            <strong>Gate 1 Key Question:</strong> "Is this opportunity worth investigating further?"
-        </div>
+  <div class="form-container">
+    <h1>Stage-Gate® Gate 1 Evaluation Worksheet</h1>
+    <p class="subhead">Gate 1 is a quick screen to decide if an opportunity is worth exploring further.</p>
 
-        <form id="gate1-form">
-            <!-- Section 1: Project Information -->
-            <h2>Project Information</h2>
-            
-            <div class="form-group">
-                <label for="opportunity_name">Innovation Opportunity Name <span class="required">*</span></label>
-                <div class="description">Provide a brief, descriptive name for your innovation direction</div>
-                <input type="text" id="opportunity_name" name="Innovation Opportunity Name" placeholder="e.g., Smart Refill Packaging System or Apartment-Friendly Concentrated Formula" required>
-            </div>
-
-            <div class="form-group">
-                <label for="opportunity_description">Brief Innovation Description <span class="required">*</span></label>
-                <div class="description">Summarise your chosen innovation opportunity in 2-3 sentences</div>
-                <textarea id="opportunity_description" name="Brief Innovation Description" placeholder="Describe the core concept and target consumer need being addressed" required></textarea>
-            </div>
-
-            <div class="form-group">
-                <label for="target_segment">Primary Target Consumer Segment <span class="required">*</span></label>
-                <div class="description">Which consumer group does this opportunity primarily serve?</div>
-                <select id="target_segment" name="Primary Target Consumer Segment" required>
-                    <option value="">Select a target segment...</option>
-                    <option value="time-poor-households">Time-poor dual-income households</option>
-                    <option value="eco-conscious">Environmentally conscious consumers</option>
-                    <option value="tech-savvy-urban">Tech-savvy urban dwellers</option>
-                    <option value="budget-conscious">Budget-conscious families</option>
-                    <option value="space-constrained">Space-constrained renters</option>
-                    <option value="other">Other (specify in comments)</option>
-                </select>
-            </div>
-
-            <!-- Section 2: Must-Meet Criteria -->
-            <h2>Gate 1 Must-Meet Criteria</h2>
-            <div class="instruction-box">
-                <strong>These criteria must be satisfied for the project to proceed. Evaluate each as Pass or Fail.</strong>
-            </div>
-
-            <div class="form-group">
-                <label for="strategic_alignment">Strategic Alignment with Stage-Gate 1 Evaluation Worksheet <span class="required">*</span></label>
-                <div class="description">Does this opportunity align with company's current capabilities, brand positioning, and market position?</div>
-                <select id="strategic_alignment" name="Strategic Alignment with Stage-Gate 1 Evaluation Worksheet" required>
-                    <option value="">Select assessment...</option>
-                    <option value="pass">Pass - Strong alignment with company direction</option>
-                    <option value="fail">Fail - Poor fit with company strategy</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="strategic_alignment_rationale">Strategic Alignment Rationale</label>
-                <div class="description">Explain your Pass/Fail assessment for strategic alignment</div>
-                <textarea id="strategic_alignment_rationale" name="Strategic Alignment Rationale" placeholder="Justify why this opportunity fits (or doesn't fit) with the company's capabilities and market position"></textarea>
-            </div>
-
-            <div class="form-group">
-                <label for="market_potential">Market Size Potential <span class="required">*</span></label>
-                <div class="description">Is there sufficient addressable market opportunity for the company to pursue?</div>
-                <select id="market_potential" name="Market Size Potential" required>
-                    <option value="">Select assessment...</option>
-                    <option value="pass">Pass - Sufficient market size and potential</option>
-                    <option value="fail">Fail - Market too small or declining</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="market_potential_rationale">Market Potential Rationale</label>
-                <div class="description">Explain your assessment of market size and opportunity</div>
-                <textarea id="market_potential_rationale" name="Market Potential Rationale" placeholder="Describe the target market size and growth potential for this innovation"></textarea>
-            </div>
-
-            <div class="form-group">
-                <label for="technical_feasibility">Technical Feasibility <span class="required">*</span></label>
-                <div class="description">Can this innovation potentially be developed and implemented by the company?</div>
-                <select id="technical_feasibility" name="Technical Feasibility" required>
-                    <option value="">Select assessment...</option>
-                    <option value="pass">Pass - Technically feasible within reasonable resources</option>
-                    <option value="fail">Fail - Major technical barriers or resource constraints</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="technical_feasibility_rationale">Technical Feasibility Rationale</label>
-                <div class="description">Explain your assessment of development and implementation feasibility</div>
-                <textarea id="technical_feasibility_rationale" name="Technical Feasibility Rationale" placeholder="Consider manufacturing, supply chain, regulatory, and capability requirements"></textarea>
-            </div>
-
-            <!-- Section 3: Should-Meet Criteria -->
-            <h2>Gate 1 Should-Meet Criteria</h2>
-            <div class="instruction-box">
-                <strong>Rate each criterion on a scale of 1-5 (1=Poor, 3=Adequate, 5=Excellent)</strong>
-            </div>
-
-            <div class="form-group">
-                <label for="competitive_advantage">Competitive Advantage Potential (1-5) <span class="required">*</span></label>
-                <div class="description">How differentiated could this innovation be in the market?</div>
-                <select id="competitive_advantage" name="Competitive Advantage Potential (1-5)" required>
-                    <option value="">Select rating...</option>
-                    <option value="5">5 - Highly differentiated, difficult to replicate</option>
-                    <option value="4">4 - Strong differentiation potential</option>
-                    <option value="3">3 - Moderate differentiation possible</option>
-                    <option value="2">2 - Limited differentiation</option>
-                    <option value="1">1 - No clear competitive advantage</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="capability_synergy">Synergy with Existing Capabilities (1-5) <span class="required">*</span></label>
-                <div class="description">How well does this leverage the company's current strengths and resources?</div>
-                <select id="capability_synergy" name="Synergy with Existing Capabilities (1-5)" required>
-                    <option value="">Select rating...</option>
-                    <option value="5">5 - Perfect synergy with core capabilities</option>
-                    <option value="4">4 - Strong alignment with many capabilities</option>
-                    <option value="3">3 - Some relevant overlap</option>
-                    <option value="2">2 - Limited synergy</option>
-                    <option value="1">1 - No synergy or requires totally new capabilities</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="should_meet_comments">Comments on Should-Meet Criteria</label>
-                <div class="description">Add any comments or explanations for your should-meet ratings</div>
-                <textarea id="should_meet_comments" name="Comments on Should-Meet Criteria"></textarea>
-            </div>
-
-            <!-- Section 4: Final Comments -->
-            <h2>Final Comments</h2>
-            <div class="form-group">
-                <label for="additional_comments">Additional Comments / Other Considerations</label>
-                <div class="description">Summarise any other important points, challenges, or next steps</div>
-                <textarea id="additional_comments" name="Additional Comments"></textarea>
-            </div>
-            
-            <!-- Export Button -->
-            <button type="button" class="submit-btn" onclick="exportToWord()">Export to Word</button>
-        </form>
+    <div class="instruction-box">
+      <p><strong>How to use this worksheet</strong></p>
+      <p>
+        Fill in the sections below. Keep your writing short and clear. This is a first draft, not a final report.
+      </p>
+      <p><strong>Gate 1 key question:</strong> Is this opportunity worth investigating further?</p>
+      <p class="description" style="margin-top:10px;">
+        Tip for Week 1: “Market size potential” is an early evidence check. You are not doing full market sizing yet.
+      </p>
     </div>
 
-    <script>
-    function exportToWord() {
-        var form = document.getElementById("gate1-form");
-        var formData = new FormData(form);
-        var text = "Stage-Gate 1 Evaluation Worksheet Gate 1 Evaluation Worksheet\n\n";
-        for (let [key, value] of formData.entries()) {
-            text += key + ":\n" + value + "\n\n";
-        }
-        var blob = new Blob([text], { type: "application/msword" });
-        var url = URL.createObjectURL(blob);
+    <form id="gate1-form">
 
-        var a = document.createElement("a");
-        a.href = url;
-        a.download = "Stage_Gate1_Worksheet.doc";
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
+      <!-- Section 1: Project Information -->
+      <h2>Project information</h2>
+
+      <div class="form-group">
+        <label for="organisation_name">Organisation name <span class="required">*</span></label>
+        <div class="description">The organisation or brand you are evaluating</div>
+        <input type="text" id="organisation_name" name="Organisation name" placeholder="Example: Optimum (Mars) or another organisation" required>
+      </div>
+
+      <div class="form-group">
+        <label for="category_context">Product category or industry context <span class="required">*</span></label>
+        <div class="description">What category is this opportunity in?</div>
+        <input type="text" id="category_context" name="Product category or industry context" placeholder="Example: pet care services, consumer electronics, health and wellbeing, household goods" required>
+      </div>
+
+      <div class="form-group">
+        <label for="opportunity_name">Innovation opportunity name <span class="required">*</span></label>
+        <div class="description">A short name for your idea direction</div>
+        <input type="text" id="opportunity_name" name="Innovation opportunity name" placeholder="Example: PlayPass toy swap membership or refill station service" required>
+      </div>
+
+      <div class="form-group">
+        <label for="opportunity_description">Brief innovation description <span class="required">*</span></label>
+        <div class="description">Summarise the opportunity in two or three sentences</div>
+        <textarea id="opportunity_description" name="Brief innovation description" placeholder="What is it, who is it for, and what problem does it solve?" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="target_segment">Primary target consumer segment <span class="required">*</span></label>
+        <div class="description">Choose the main group this serves</div>
+        <select id="target_segment" name="Primary target consumer segment" required>
+          <option value="">Select a target segment...</option>
+          <option value="time-poor">Time-poor customers</option>
+          <option value="price-sensitive">Price-sensitive customers</option>
+          <option value="quality-seekers">Quality and performance seekers</option>
+          <option value="eco-focused">Sustainability-focused customers</option>
+          <option value="new-to-category">New or inexperienced customers</option>
+          <option value="other">Other (specify in final comments)</option>
+        </select>
+      </div>
+
+      <!-- Section 2: Must-Meet Criteria -->
+      <h2>Gate 1 must-meet criteria</h2>
+      <div class="instruction-box">
+        <p><strong>These must be satisfied to proceed.</strong> Mark each as pass or fail, then explain why.</p>
+      </div>
+
+      <div class="form-group">
+        <label for="strategic_alignment">Strategic alignment <span class="required">*</span></label>
+        <div class="description">Does this opportunity fit the organisation’s brand, strengths, and direction?</div>
+        <select id="strategic_alignment" name="Strategic alignment" required>
+          <option value="">Select assessment...</option>
+          <option value="pass">Pass</option>
+          <option value="fail">Fail</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="strategic_alignment_rationale">Strategic alignment rationale</label>
+        <div class="description">One or two short sentences. What makes it a good fit (or not)?</div>
+        <textarea id="strategic_alignment_rationale" name="Strategic alignment rationale" placeholder="Example: This fits because the organisation already serves this customer group and has relevant capabilities."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="market_potential">Market size potential <span class="required">*</span></label>
+        <div class="description">Early check: is there enough evidence this problem affects enough people to matter?</div>
+        <select id="market_potential" name="Market size potential" required>
+          <option value="">Select assessment...</option>
+          <option value="pass">Pass</option>
+          <option value="fail">Fail</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="market_potential_rationale">Market potential rationale</label>
+        <div class="description">Add one source and one sentence explaining why the opportunity is meaningful.</div>
+        <textarea id="market_potential_rationale" name="Market potential rationale" placeholder="Example: Evidence shows this is a common pain point and demand is growing. Source: paste link or citation."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="technical_feasibility">Feasibility <span class="required">*</span></label>
+        <div class="description">Could the organisation realistically build and deliver this?</div>
+        <select id="technical_feasibility" name="Feasibility" required>
+          <option value="">Select assessment...</option>
+          <option value="pass">Pass</option>
+          <option value="fail">Fail</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="technical_feasibility_rationale">Feasibility rationale</label>
+        <div class="description">Think about operations, supply chain, partners, safety, and compliance (if relevant).</div>
+        <textarea id="technical_feasibility_rationale" name="Feasibility rationale" placeholder="Example: This is feasible using existing suppliers and simple delivery processes. Main challenge is X, which could be tested in Stage 1."></textarea>
+      </div>
+
+      <!-- Section 3: Should-Meet Criteria -->
+      <h2>Gate 1 should-meet criteria</h2>
+      <div class="instruction-box">
+        <p><strong>Rate each criterion from one to five.</strong> One is poor, three is adequate, five is excellent.</p>
+      </div>
+
+      <div class="form-group">
+        <label for="competitive_advantage">Competitive advantage potential (1–5) <span class="required">*</span></label>
+        <div class="description">How different could this be compared to what customers already use?</div>
+        <select id="competitive_advantage" name="Competitive advantage potential (1–5)" required>
+          <option value="">Select rating...</option>
+          <option value="5">5</option>
+          <option value="4">4</option>
+          <option value="3">3</option>
+          <option value="2">2</option>
+          <option value="1">1</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="capability_synergy">Fit with existing capabilities (1–5) <span class="required">*</span></label>
+        <div class="description">How well does this use what the organisation already has (skills, channels, partners, brand trust)?</div>
+        <select id="capability_synergy" name="Fit with existing capabilities (1–5)" required>
+          <option value="">Select rating...</option>
+          <option value="5">5</option>
+          <option value="4">4</option>
+          <option value="3">3</option>
+          <option value="2">2</option>
+          <option value="1">1</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="should_meet_comments">Comments on should-meet criteria</label>
+        <div class="description">Two or three short sentences. Why did you choose those ratings?</div>
+        <textarea id="should_meet_comments" name="Comments on should-meet criteria" placeholder="Example: Advantage is strong because X. Capability fit is moderate because Y."></textarea>
+      </div>
+
+      <!-- Section 4: Final Comments -->
+      <h2>Final comments</h2>
+      <div class="form-group">
+        <label for="additional_comments">Decision, key risk, and next step</label>
+        <div class="description">Write your decision, a short reason, one risk, and one next step.</div>
+        <textarea id="additional_comments" name="Final comments" placeholder="Decision (go/hold/recycle/stop): ...&#10;Reason (3 sentences): ...&#10;Biggest risk: ...&#10;Next step to test: ..."></textarea>
+      </div>
+
+      <button type="button" class="submit-btn" onclick="exportToWord()">Export to Word</button>
+    </form>
+  </div>
+
+  <script>
+    function exportToWord() {
+      const form = document.getElementById("gate1-form");
+      const formData = new FormData(form);
+
+      let text = "Stage-Gate® Gate 1 Evaluation Worksheet\n\n";
+      for (let [key, value] of formData.entries()) {
+        text += key + ":\n" + (value || "") + "\n\n";
+      }
+
+      const blob = new Blob([text], { type: "application/msword" });
+      const url = URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "Stage_Gate_Gate1_Worksheet.doc";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
     }
-    </script>
+  </script>
 </body>
 </html>
